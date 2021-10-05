@@ -1,0 +1,17 @@
+.headerx{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.headerx >h4{
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.headerx >.MuiSvgIcon-root{
+    font-size: xx-large;
+    color :#2eB1f4;
+}

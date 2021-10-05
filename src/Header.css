@@ -1,0 +1,135 @@
+.header{
+    padding: 15px 200px;
+    display:flex;
+   
+    /*background-color: white;*/
+    /* Justificacar espacio de Contenido entre  (Se aleja los elementos)*/
+    justify-content: space-between;
+
+
+    /* */
+
+    /*Posicion pegajosa */
+
+    position: sticky;
+    /* Numero de Orden */
+    z-index: 100;
+    top :0;
+
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+
+
+
+.header__left >img{
+    height: 40px;
+
+}
+
+
+.header__left{
+    
+    display: flex;
+  
+    /* Los elementos aparecen distribuidos*/
+    justify-content: space-evenly;
+
+}
+
+.header__input{
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    
+    border-radius: 999px;
+    
+
+}
+
+.header__input >input{
+    border: none;
+    background-color: transparent;
+    /*delinear el ancho de cero */
+    outline-width: 0;
+}
+
+.header__center{
+    display: flex;
+    /* */
+    flex:1;
+    /* Distribucion de Espacios */
+    justify-content: center ;
+}
+
+
+.header__option .MuiSvgIcon-root{
+    /* Color de los elementos */
+    color:gray;
+}
+
+.header__option:hover .MuiSvgIcon-root{
+    /* Color de los elementos */
+    color:#2e81f4;
+}
+
+.header__option{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+   
+
+}
+
+
+.header__option:hover{
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+  
+}
+
+
+.header__info{
+    display: flex;
+    align-items: center;
+}
+
+.header__info >h4{
+    margin-left: 10px;
+   
+}
+
+
+
+.header__middle{
+    background-color: red;
+
+}
+
+
+
+.header__right{
+    display: flex;
+
+   
+}
+
+
+
+.header__option__active > .MuiSvgIcon-root{
+    color:#2e81f4;
+
+
+
+}
+
+.header__option__active{
+    border-bottom: 4px solid #2e81f4;
+}
+
